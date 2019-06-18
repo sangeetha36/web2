@@ -1,0 +1,74 @@
+.............register.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="Register" method="get">
+Username : <input type="text" name="uname"/><br>
+password : <input type="password" name="pass"><br>
+
+Email : <input type="text" name="email"/><br>
+Phno: <input type="text" name="ph"/><br>
+
+Gender: <input type="radio" name="gen" value="male">Male
+<input type="radio" name="gen" value="female">Female
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+
+....................index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Login Form</h4>
+<form action="Login" method="get">
+Username : <input type="text" name="uname"/><br>
+password : <input type="password" name="pass">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+............home.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Welcome
+</body>
+</html>
+
+
+............view.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>Login Form</h4>
+<form action="View" method="get">
+Username : <input type="text" name="uname"/><br>
+<input type="submit" value="Submit">
+</body>
+</html>
